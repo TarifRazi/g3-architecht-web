@@ -1,0 +1,120 @@
+/* work sens font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* common styles */
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+
+h1 {
+    color: #131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h3 {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+p {
+    color: #727272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 24px;
+    color: white;
+    border: 0;
+    font-size: 1.25rem;
+    /* margin: 30px; */
+    cursor: pointer;
+}
+
+
+/* header style */
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 20px;
+    color: #424242;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+    /* 144.444% */
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+
+}
+
+/* banner style */
+
+.banner-cont {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.banner-img img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/* responsive styles */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet */
+
+@media screen and (min-width:576px ) and (max-width:960px) {
+
+    header{
+        padding: 50px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    
+}
