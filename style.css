@@ -220,6 +220,7 @@ width: 1440px;
 height: 100px;
 text-align: center;
 align-items: center;
+padding-top: 60px;
 }
 .footer small{
     color:  #424242;
@@ -237,7 +238,7 @@ line-height: normal;
         padding: 20px;
     }
 
-    nav, .fact-card-grp {
+    nav, .fact-card-grp, .sponsor-img {
         flex-direction: column;
     }
 
@@ -271,6 +272,15 @@ line-height: normal;
     .fact-card-grp{
         align-items: center;
     }
+
+    .sponsor-img img{
+        padding: 20px;
+    }
+
+    .footer{
+        width: 300px;
+        margin: 0%;
+    }
 }
 
 /* tablet */
@@ -287,5 +297,17 @@ line-height: normal;
 
     .team-cont {
         padding: 0 100px;
+    }
+
+    .sponsor-img {
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer{
+        width: 700px;
+        margin: 0;
+        margin-bottom: 120px;
     }
 }
